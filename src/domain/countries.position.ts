@@ -1,4 +1,11 @@
-export const countries = [
+export declare interface countriesI {
+  name: string;
+  code: string;
+  latitude: number;
+  longitude: number;
+}
+
+export const worldCountries: countriesI[] = [
   {
     code: "AD",
     latitude: 42.546245,
@@ -1469,6 +1476,6 @@ export const countries = [
     longitude: 29.154857,
     name: "Zimbabwe",
   },
-] as const;
+];
 
-export type CountryCode = typeof countries[number]["code"];
+export type CountryCode = typeof worldCountries[number]["code"];

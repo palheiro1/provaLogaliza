@@ -3,7 +3,7 @@ import React from "react";
 export function Worldle() {
   return (
     <span className="font-bold">
-      WOR<span className="text-green-600">L</span>DLE
+      LO<span className="text-lightblue-600">GALI</span>ZA
     </span>
   );
 }

@@ -3,16 +3,7 @@
 // Countries images => https://github.com/djaiss/mapsicon
 // Country area => https://github.com/samayo/country-json/blob/master/src/country-by-surface-area.json
 
-import { areas } from "./countries.area";
-import { countries } from "./countries.position";
-import { corsicanCountryNames } from "./countries.name.co";
-import { frenchCountryNames } from "./countries.name.fr";
-import { hungarianCountryNames } from "./countries.name.hu";
-import { dutchCountryNames } from "./countries.name.nl";
-import { polishCountryNames } from "./countries.name.pl";
-import { germanCountryNames } from "./countries.name.de";
-import { countryCodesWithImage } from "./countries.image";
-import { japaneseCountryNames } from "./countries.name.ja";
+import { languages } from "../environment";
 
 export interface Country {
   code: string;
@@ -21,34 +12,9 @@ export interface Country {
   name: string;
 }
 
-export const countriesWithImage = countries.filter((c) =>
-  countryCodesWithImage.includes(c.code.toLowerCase())
-);
-
-export const smallCountryLimit = 5000;
-export const bigEnoughCountriesWithImage = countriesWithImage.filter(
-  (country) => areas[country.code] > smallCountryLimit
-);
 
 export function getCountryName(language: string, country: Country) {
-  switch (language) {
-    case "co":
-      return corsicanCountryNames[country.code];
-    case "fr":
-      return frenchCountryNames[country.code];
-    case "hu":
-      return hungarianCountryNames[country.code];
-    case "nl":
-      return dutchCountryNames[country.code];
-    case "pl":
-      return polishCountryNames[country.code];
-    case "de":
-      return germanCountryNames[country.code];
-    case "ja":
-      return japaneseCountryNames[country.code];
-    default:
-      return country.name;
-  }
+  return languages[country.code];
 }
 
 export function sanitizeCountryName(countryName: string): string {

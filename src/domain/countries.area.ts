@@ -1,4 +1,4 @@
-export const areas: Record<string, number> = {
+export const worldAreas: Record<string, number> = {
   AW: 193,
   AF: 652090,
   AO: 1246700,

@@ -1,24 +1,25 @@
+import { Twemoji } from "@teuteuf/react-emoji-render";
+import * as geolib from "geolib";
 import React, {
   ReactText,
   useCallback,
   useEffect,
   useMemo,
   useRef,
-  useState,
+  useState
 } from "react";
+import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 import { getCountryName, sanitizeCountryName } from "../domain/countries";
-import { CountryInput } from "./CountryInput";
-import * as geolib from "geolib";
-import { Share } from "./Share";
-import { Guesses } from "./Guesses";
-import { useTranslation } from "react-i18next";
-import { SettingsData } from "../hooks/useSettings";
+import { countriesI } from "../domain/countries.position";
+import { countries, srcImageFilename, srcImageFolder } from "../environment";
 import { useMode } from "../hooks/useMode";
-import { getDayString, useTodays } from "../hooks/useTodays";
-import { Twemoji } from "@teuteuf/react-emoji-render";
-import { countries } from "../domain/countries.position";
 import { useNewsNotifications } from "../hooks/useNewsNotifications";
+import { SettingsData } from "../hooks/useSettings";
+import { getDayString, useTodays } from "../hooks/useTodays";
+import { CountryInput } from "./CountryInput";
+import { Guesses } from "./Guesses";
+import { Share } from "./Share";
 
 const ENABLE_TWITCH_LINK = false;
 const MAX_TRY_COUNT = 6;
@@ -46,6 +47,8 @@ export function Game({ settingsData, updateSettings }: GameProps) {
     [country, i18n.resolvedLanguage]
   );
 
+  const srcImage = `images/${srcImageFolder}/${country?.code.toLowerCase()}/${srcImageFilename}`;
+
   const [currentGuess, setCurrentGuess] = useState("");
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
@@ -68,8 +71,9 @@ export function Game({ settingsData, updateSettings }: GameProps) {
         return;
       }
       e.preventDefault();
+
       const guessedCountry = countries.find(
-        (country) =>
+        (country: countriesI) =>
           sanitizeCountryName(
             getCountryName(i18n.resolvedLanguage, country)
           ) === sanitizeCountryName(currentGuess)
@@ -157,7 +161,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="country to guess"
-          src={`images/countries/${country?.code.toLowerCase()}/vector.svg`}
+          src={ srcImage }
           style={
             rotationMode && !gameEnded
               ? {

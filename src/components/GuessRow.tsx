@@ -1,22 +1,22 @@
+import { Twemoji } from "@teuteuf/react-emoji-render";
+import React, { useCallback, useEffect, useState } from "react";
+import CountUp from "react-countup";
+import { useTranslation } from "react-i18next";
+import {
+  Country,
+  getCountryName,
+  sanitizeCountryName
+} from "../domain/countries";
+import { countriesI } from "../domain/countries.position";
 import {
   computeProximityPercent,
   formatDistance,
   generateSquareCharacters,
-  getDirectionEmoji,
+  getDirectionEmoji
 } from "../domain/geography";
 import { Guess } from "../domain/guess";
-import React, { useCallback, useEffect, useState } from "react";
-import CountUp from "react-countup";
+import { areas, countries } from "../environment";
 import { SettingsData } from "../hooks/useSettings";
-import { Twemoji } from "@teuteuf/react-emoji-render";
-import {
-  Country,
-  getCountryName,
-  sanitizeCountryName,
-} from "../domain/countries";
-import { areas } from "../domain/countries.area";
-import { countries } from "../domain/countries.position";
-import { useTranslation } from "react-i18next";
 
 const SQUARE_ANIMATION_LENGTH = 250;
 type AnimationState = "NOT_STARTED" | "RUNNING" | "ENDED";
@@ -42,7 +42,7 @@ export function GuessRow({
   const guessedCountry =
     guess &&
     countries.find(
-      (country) =>
+      (country: countriesI) =>
         sanitizeCountryName(getCountryName(i18n.resolvedLanguage, country)) ===
         sanitizeCountryName(guess.name)
     );
