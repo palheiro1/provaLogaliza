@@ -1,24 +1,14 @@
-# WOR**L**DLE
+# LoGaliza!
 
-Play this geographical wordle here: https://worldle.teuteuf.fr !
+Joga e aprende geografia galega aqui: https://estreleira.gal/logaliza !
 
-## Contributions & PR
+## Contribuiçons & PR
 
-Even if there are many more users than I could ever imagine on Worldle, it was originally a small pet project that I started in order to  practice code and have fun.
+Este jogo começa como um fork do exitoso WorldLe, disponível em https://worldle.teuteuf.fr/. Toda a nossa gratitude a @teuteuf, que disponibilizou o código com licença aberta para todo o mundo!
+Desse ponto de partida, começamos a substituir a base de dados de países do mundo pola de comarcas galegas. Depois, acrescentamos outras pistas, diferentes à silueta dos mapas, promovendo o conhecimento da cultura, história e costumes de cada comarca do país.
+Como demonstram as últimas melhoras de Teuteuf no seu jogo, esta mecánica tem muitas possibilidades de melhora, incluindo os bônus (cabeceira de comarca, comarcas limítrofes, escudos). Para seguirmos avançando, agradecemos todas as contribuiçons de programadores/as e entusiastas! Este projecto é também software livre, assim que encorajamos-vos a propordes PR para melhorar qualquer aspecto do jogo.
 
-So, I prefer to continue to manage it personally and do all the design and the code by myself.  :)
+## Recursos usados:
 
-Therefore, I'm not looking for contributors or PR! I could accept PR for specific things, for instance to add support for your native language or to fix something, but please, don't hesitate to contact me first!
-
-If you'd like to make a suggestion, don't hesitate to open an issue!
-
-Otherwise, feel free to fork the project, customize it and play with it on your side! <3
-
-## Resources used:
-
-- Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-- Country area => https://github.com/samayo/country-json/blob/master/src/country-by-surface-area.json
-- French country names => https://fr.wikipedia.org/wiki/ISO_3166
-- Country images => https://github.com/djaiss/mapsicon
 - Fixed images => http://www.amcharts.com/svg-maps/ & Wikipedia
 - Emojis & World icon => https://github.com/twitter/twemoji
