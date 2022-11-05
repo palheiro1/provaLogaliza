@@ -10,5 +10,5 @@ Como demonstram as últimas melhoras de Teuteuf no seu jogo, esta mecánica tem 
 
 ## Recursos usados:
 
-- Fixed images => http://www.amcharts.com/svg-maps/ & Wikipedia
-- Emojis & World icon => https://github.com/twitter/twemoji
+- Imagens fixas => http://www.amcharts.com/svg-maps/ & Wikipedia
+- Emojis => https://github.com/twitter/twemoji
