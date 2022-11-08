@@ -34,7 +34,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
               {
                 name: "Seabra",
                 direction: "NW",
-                distance: 163,
+                distance: 163000,
               },
             ]}
             settingsData={settingsData}
@@ -53,7 +53,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
               {
                 name: "Corunha",
                 direction: "E",
-                distance: 61,
+                distance: 61000,
               },
             ]}
             settingsData={settingsData}
@@ -88,7 +88,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         Agora busca o mapa da comarca, conhece o seu escudo, e clica na ligaçom para aprender mais. Um novo LoGaliza estará disponível amanhá!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">Any question or suggestion?</div>
+        <div className="font-bold">Tés perguntas ou sugestons?</div>
         <div>
           Consulta o{" "}
           <a
@@ -107,7 +107,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         polo{" "}
         <a
           className="underline"
-          href="https://www.powerlanguage.co.uk/wordle/"
+          href="https://worldle.teuteuf.fr/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -116,7 +116,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         criado por{" "}
         <a
           className="underline"
-          href="https://twitter.com/powerlanguish"
+          href="https://twitter.com/teuteuf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -129,7 +129,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           Feito por{" "}
           <a
             className="underline"
-            href="https://twitter.com/teuteuf"
+            href="https://twitter.com/Estreleiragal"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -150,7 +150,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
          Queres apoiar esta iniciativa?{" "}
           <a
             className="underline"
-            href="https://www.ko-fi.com/teuteuf"
+            href="https://www.ko-fi.com/estreleira"
             target="_blank"
             rel="noopener noreferrer"
           >
