@@ -264,7 +264,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                   text={
                     dayString === "2022-07-17"
                       ? "Let's celebrate #WorldEmojiDay! Play Emovi! 🎥"
-                      : "Try my new game, play Emovi! 🎥"
+                      : "Difunde os nossos símbolos, visita estreleira.gal/loja"
                   }
                   options={{ className: "inline-block" }}
                 />
