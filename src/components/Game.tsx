@@ -233,7 +233,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 rel="noopener noreferrer"
               >
                 <Twemoji
-                  text={t("showOnWikipedia")}
+                  text={t("LearnMore")}
                   options={{ className: "inline-block" }}
                 />
               </a>
