@@ -33,7 +33,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Seabra",
-                direction: "NO",
+                direction: "NW",
                 distance: 163,
               },
             ]}
