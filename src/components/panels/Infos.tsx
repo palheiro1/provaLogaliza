@@ -17,7 +17,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="Como Jogar" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Adivinha o <LoGaliza /> em 4 tentativas.
+          Adivinha o LoGaliza em 4 tentativas.
         </div>
         <div>Cada tentativa deve ser umha comarca válida</div>
         <div>
@@ -103,7 +103,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <LoGaliza /> foi <span className="font-bold">completamente</span> inspirado
+        LoGaliza foi <span className="font-bold">completamente</span> inspirado
         polo{" "}
         <a
           className="underline"
