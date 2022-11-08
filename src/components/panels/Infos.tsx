@@ -98,7 +98,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Worldle FAQ
+            LoGaliza FAQ
           </a>
           !
         </div>
@@ -112,7 +112,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wordle
+          WorLdLe
         </a>{" "}
         created by{" "}
         <a
@@ -121,7 +121,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Josh Wardle (@powerlanguish)
+         Teuteuf (@teuteuf)
         </a>
         .
       </div>
@@ -134,12 +134,12 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @teuteuf
+            @Estreleiragal
           </a>{" "}
           - (
           <a
             className="underline"
-            href="https://github.com/teuteuf/worldle/"
+            href="https://github.com/Estreleira/logaliza/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -156,7 +156,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rel="noopener noreferrer"
           >
             <Twemoji
-              text="Buy me a coffee! ☕"
+              text="Financia um colante!"
               options={{ className: "inline-block" }}
             />
           </a>
