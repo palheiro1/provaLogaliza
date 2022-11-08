@@ -14,12 +14,12 @@ interface InfosProps {
 
 export function Infos({ isOpen, close, settingsData }: InfosProps) {
   return (
-    <Panel title="How to play" isOpen={isOpen} close={close}>
+    <Panel title="Como Jogar" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Guess the <Worldle /> in 6 guesses.
+          Guess the <Worldle /> in 4 guesses.
         </div>
-        <div>Each guess must be a valid country, territory, ...</div>
+        <div>Each guess must be a valid comarca</div>
         <div>
           After each guess, you will have the distance, the direction and the
           proximity from your guess to the target location.
@@ -32,18 +32,18 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chile",
-                direction: "NE",
-                distance: 13_557_000,
+                name: "Seabra",
+                direction: "NO",
+                distance: 163,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">Chile</span> is{" "}
-            {formatDistance(13557000, settingsData.distanceUnit)} away from the
-            target location, the target location is in the North-East direction
-            and you have a only 32% of proximity because it&apos;s quite far
+            Your guess <span className="uppercase font-bold">Seabra</span> is{" "}
+            {formatDistance(163, settingsData.distanceUnit)} away from the
+            target location, the target location is in the North-West direction
+            and you have a only 39% of proximity because it&apos;s quite far
             away!
           </div>
         </div>
@@ -52,18 +52,18 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Finland",
-                direction: "SE",
-                distance: 3_206_000,
+                name: "Corunha",
+                direction: "E",
+                distance: 61,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
             Your second guess{" "}
-            <span className="uppercase font-bold">Finland</span> is getting
-            closer! {formatDistance(3206000, settingsData.distanceUnit)} away,
-            South-East direction and 84%!
+            <span className="uppercase font-bold">Corunha</span> is getting
+            closer! {formatDistance(61, settingsData.distanceUnit)} away,
+            East direction and 77%!
           </div>
         </div>
         <div>
@@ -71,22 +71,22 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Lebanon",
-                direction: "N",
+                name: "Eume",
+                direction: "E",
                 distance: 0,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Lebanon</span>,
+            Next guess, <span className="uppercase font-bold">Eume</span>,
             it&apos;s the location to guess! Congrats!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        A new <Worldle /> will be available every day!
+        A new <LoGaliza /> will be available every day!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Any question or suggestion?</div>
