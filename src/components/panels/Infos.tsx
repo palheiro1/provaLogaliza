@@ -40,8 +40,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            A tua tentativa <span className="uppercase font-bold">Seabra</span> ficou{" "}
-            {formatDistance(163, settingsData.distanceUnit)} longe da comarca alvo, que está em direcçom NorOeste
+            A tua tentativa <span className="uppercase font-bold">Seabra</span> ficou a 163km da comarca alvo, que está em direcçom Noroeste
            e só tiveche 39% de aproximaçom... porque fica bastante
             longe!
           </div>
@@ -61,8 +60,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             A tua segunda tentativa{" "}
             <span className="uppercase font-bold">Corunha</span> achega-se
-            um pouco! {formatDistance(61, settingsData.distanceUnit)} mais,
-            direcçom Leste e 77%!
+            um pouco! 61 km mais, direcçom Leste e 77%!
           </div>
         </div>
         <div>
