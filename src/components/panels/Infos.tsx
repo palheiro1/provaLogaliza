@@ -85,7 +85,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        Agora busca o mapa da comarca, conhece o seu escudo, e clica na ligaçom para aprender mais. Um novo <LoGaliza /> estará disponível amanhá!
+        Agora busca o mapa da comarca, conhece o seu escudo, e clica na ligaçom para aprender mais. Um novo LoGaliza estará disponível amanhá!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Any question or suggestion?</div>
