@@ -22,7 +22,7 @@ import { Guesses } from "./Guesses";
 import { Share } from "./Share";
 
 const ENABLE_TWITCH_LINK = false;
-const MAX_TRY_COUNT = 6;
+const MAX_TRY_COUNT = 4;
 
 interface GameProps {
   settingsData: SettingsData;
