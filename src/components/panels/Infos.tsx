@@ -17,12 +17,12 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="Como Jogar" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Guess the <Worldle /> in 4 guesses.
+          Adivinha o <LoGaliza /> em 4 tentativas.
         </div>
-        <div>Each guess must be a valid comarca</div>
+        <div>Cada tentativa deve ser umha comarca válida</div>
         <div>
-          After each guess, you will have the distance, the direction and the
-          proximity from your guess to the target location.
+         Depois de cada tentativa, terás a distáncia, a direcçom e a
+          proximidade à comarca alvo.
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
@@ -40,11 +40,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">Seabra</span> is{" "}
-            {formatDistance(163, settingsData.distanceUnit)} away from the
-            target location, the target location is in the North-West direction
-            and you have a only 39% of proximity because it&apos;s quite far
-            away!
+            A tua tentativa <span className="uppercase font-bold">Seabra</span> ficou{" "}
+            {formatDistance(163, settingsData.distanceUnit)} longe da comarca alvo, que está em direcçom NorOeste
+           e só tiveche 39% de aproximaçom... porque fica bastante
+            longe!
           </div>
         </div>
         <div>
@@ -60,10 +59,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess{" "}
-            <span className="uppercase font-bold">Corunha</span> is getting
-            closer! {formatDistance(61, settingsData.distanceUnit)} away,
-            East direction and 77%!
+            A tua segunda tentativa{" "}
+            <span className="uppercase font-bold">Corunha</span> achega-se
+            um pouco! {formatDistance(61, settingsData.distanceUnit)} mais,
+            direcçom Leste e 77%!
           </div>
         </div>
         <div>
@@ -79,33 +78,33 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Eume</span>,
-            it&apos;s the location to guess! Congrats!{" "}
+            A seguinte tentativa, <span className="uppercase font-bold">Eume</span>,
+           é a certa! Parabéns!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        A new <LoGaliza /> will be available every day!
+        Agora busca o mapa da comarca, conhece o seu escudo, e clica na ligaçom para aprender mais. Um novo <LoGaliza /> estará disponível amanhá!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Any question or suggestion?</div>
         <div>
-          Check the{" "}
+          Consulta o{" "}
           <a
             className="underline"
             href="https://worldle.notion.site/Worldle-b84ab0f002e34866980a4d47cf9291b7"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LoGaliza FAQ
+            FAQ de LoGaliza
           </a>
           !
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle /> has been <span className="font-bold">heavily</span> inspired
-        by{" "}
+        <LoGaliza /> foi <span className="font-bold">completamente</span> inspirado
+        polo{" "}
         <a
           className="underline"
           href="https://www.powerlanguage.co.uk/wordle/"
@@ -114,7 +113,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         >
           WorLdLe
         </a>{" "}
-        created by{" "}
+        criado por{" "}
         <a
           className="underline"
           href="https://twitter.com/powerlanguish"
@@ -127,7 +126,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          Made by{" "}
+          Feito por{" "}
           <a
             className="underline"
             href="https://twitter.com/teuteuf"
@@ -143,12 +142,12 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            source code
+            código fonte
           </a>
           )
         </div>
         <div>
-          Want to support?{" "}
+         Queres apoiar esta iniciativa?{" "}
           <a
             className="underline"
             href="https://www.ko-fi.com/teuteuf"
