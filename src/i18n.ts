@@ -5,7 +5,7 @@ import { initReactI18next } from "react-i18next";
 export const translations = {
   en: {
     translation: {
-      placeholder: "Country, territory...",
+      placeholder: "Comarca...",
       guess: "Guess",
       share: "Share",
       showOnGoogleMaps: "👀 on Google Maps",
@@ -55,7 +55,7 @@ export const translations = {
         instructionNotSupported: "Not supported by this browser.",
       },
       support: {
-        UA: "Support the Ukrainian Red Cross",
+        UA: "Apoia o Projecto Estreleira e as Escolas Semente!",
       },
       newVersion: "New version available!",
       update: "Update",
@@ -69,7 +69,7 @@ export const translations = {
   },
   fr: {
     translation: {
-      placeholder: "Pays, territoires...",
+      placeholder: "Comarca......",
       guess: "Deviner",
       share: "Partager",
       showOnGoogleMaps: "👀 sur Google Maps",
@@ -134,11 +134,11 @@ export const translations = {
   },
   es: {
     translation: {
-      placeholder: "País, Territorios...",
-      guess: "Adivinar",
+      placeholder: "Comarca......",
+      guess: "Adivinhar",
       share: "Compartir",
       showOnGoogleMaps: "👀 en Google Maps",
-      welldone: "Bien hecho !",
+      welldone: "Parabéns !",
       unknownCountry: "País desconocido !",
       copy: "Resultado copiado !",
       showCountry: "🗺️ mostrar mapa !",
@@ -166,7 +166,7 @@ export const translations = {
   },
   eu: {
     translation: {
-      placeholder: "Estatua, herrialdeak...",
+      placeholder: "Eskualdea...",
       guess: "Asmatu",
       share: "Elkarbanatu",
       showOnGoogleMaps: "👀 Google Maps-en",
@@ -374,7 +374,7 @@ export const translations = {
   },
   pt: {
     translation: {
-      placeholder: "País, território...",
+      placeholder: "Comarca...",
       guess: "Adivinhar",
       share: "Compartilhar",
       showOnGoogleMaps: "👀 no Google Maps",
@@ -426,7 +426,7 @@ export const translations = {
         instructionNotSupported: "Não suportado neste navegador.",
       },
       support: {
-        UA: "Ajude a Cruz Vermelha Ucraniana",
+        UA: "Apoia o Projecto Estreleira e as Escolas Semente!",
       },
       newVersion: "Nova versão disponível!",
       update: "Atualizar",
