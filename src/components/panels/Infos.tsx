@@ -60,7 +60,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             A tua segunda tentativa{" "}
             <span className="uppercase font-bold">Corunha</span> achega-se
-            um pouco! 61 km mais, direcçom Leste e 77%!
+            um pouco! 61km mais, direcçom Leste e 77%!
           </div>
         </div>
         <div>
