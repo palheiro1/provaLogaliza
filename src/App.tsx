@@ -119,7 +119,7 @@ export default function App() {
                   text=""
                   options={{ className: "inline-block" }}
                   className="flex items-center justify-center"
-                />{"Novo Xogo"}
+                />{"Novo Jogo"}
               </button>
             <button
               className="ml-3 text-xl"
