@@ -161,7 +161,7 @@ export default function App() {
               >
                 <div className="w-max">
                   <Twemoji
-                    text={"Financia um colante!")}
+                    text={"Financia um colante!"}
                     options={{ className: "inline-block" }}
                   />
                 </div>
