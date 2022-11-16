@@ -131,7 +131,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @Estreleiragal
+            @Estreleiragal e @SementeGZ
           </a>{" "}
           - (
           <a
