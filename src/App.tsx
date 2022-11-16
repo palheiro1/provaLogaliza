@@ -142,7 +142,7 @@ export default function App() {
               text="❤️"
               className="flex items-center justify-center mr-1"
             />{" "}
-            <Worldle />? -
+            Logaliza? -
             {country && supportLink[country.code] != null ? (
               <a
                 className="underline pl-1"
@@ -155,7 +155,7 @@ export default function App() {
             ) : (
               <a
                 className="underline pl-1"
-                href="https://www.ko-fi.com/teuteuf"
+                href="https://www.ko-fi.com/estreleira"
                 target="_blank"
                 rel="noopener noreferrer"
               >
