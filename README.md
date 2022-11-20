@@ -1,6 +1,6 @@
 # LoGaliza!
 
-Joga e aprende geografia galega aqui: https://estreleira.gal/logaliza !
+Joga e aprende geografia galega aqui: https://logaliza.estreleira.gal/ !
 
 ## Contribuiçons & PR
 
