@@ -215,20 +215,18 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             <div className="flex flex-wrap gap-4 justify-center">
               <a
                 className="underline text-center block mt-4 whitespace-nowrap"
-                href={`https://www.google.com/maps?q=${countryName}+${country.code.toUpperCase()}&hl=${
-                  i18n.resolvedLanguage
-                }`}
+                href={`https://estreleira.gal/mapacomarcas`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Twemoji
-                  text={t("showOnGoogleMaps")}
+                  text={t("Consultar Mapa Comarcal")}
                   options={{ className: "inline-block" }}
                 />
               </a>
               <a
                 className="underline text-center block mt-4 whitespace-nowrap"
-                href={`https://${i18n.resolvedLanguage}.wikipedia.org/wiki/${countryName}`}
+                href={`https://estreleira.gal/${countryName}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
