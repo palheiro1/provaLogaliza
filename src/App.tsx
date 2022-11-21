@@ -12,7 +12,6 @@ import { InfosPl } from "./components/panels/InfosPl";
 import { InfosDe } from "./components/panels/InfosDe";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
-import { Worldle } from "./components/Worldle";
 import { Stats } from "./components/panels/Stats";
 import { Twemoji } from "@teuteuf/react-emoji-render";
 import { getDayString, useTodays } from "./hooks/useTodays";
@@ -111,17 +110,6 @@ export default function App() {
               LO<span className="text-lightblue-600">GALI</span>ZA
             </h1>
             <button
-                className="rounded font-bold p-1 flex items-center justify-center border-2 uppercase my-0.5 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
-                type="button"
-                onClick = { () => newGame() }
-              >
-                <Twemoji
-                  text=""
-                  options={{ className: "inline-block" }}
-                  className="flex items-center justify-center"
-                />{"Novo Jogo"}
-              </button>
-            <button
               className="ml-3 text-xl"
               type="button"
               onClick={() => setStatsOpen(true)}
@@ -172,12 +160,5 @@ export default function App() {
       </div>
     </>
   );
-}
-
-function newGame(): React.MouseEventHandler<HTMLButtonElement> | undefined {
-  localStorage.clear();
-  // eslint-disable-next-line no-restricted-globals
-  location.reload();
-  return;
 }
 
