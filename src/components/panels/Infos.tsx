@@ -131,9 +131,18 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @Estreleiragal e @SementeGZ
+            @Estreleiragal 
           </a>{" "}
-          - (
+          - e {" "}
+          <a
+            className="underline"
+            href="https://twitter.com/SementeGZ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @SementeGZ
+          </a>{" "}
+          (
           <a
             className="underline"
             href="https://github.com/Estreleira/logaliza/"
