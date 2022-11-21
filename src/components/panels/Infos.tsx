@@ -144,20 +144,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           </a>
           )
         </div>
-        <div>
-         Queres apoiar esta iniciativa?{" "}
-          <a
-            className="underline"
-            href="https://www.ko-fi.com/estreleira"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Twemoji
-              text="Financia um colante!"
-              options={{ className: "inline-block" }}
-            />
-          </a>
-        </div>
+       
       </div>
     </Panel>
   );
