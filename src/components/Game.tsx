@@ -46,6 +46,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
     () => (country ? getCountryName(i18n.resolvedLanguage, country) : ""),
     [country, i18n.resolvedLanguage]
   );
+  const normalizedCountryName = sanitizeCountryName(countryName);
 
   const srcImage = `images/${srcImageFolder}/${country?.code.toLowerCase()}/${srcImageFilename}`;
 
@@ -226,7 +227,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               </a>
               <a
                 className="underline text-center block mt-4 whitespace-nowrap"
-                href={`https://estreleira.gal/${countryName}`}
+                href={`https://estreleira.gal/${normalizedCountryName}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
