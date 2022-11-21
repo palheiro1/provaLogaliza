@@ -220,7 +220,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 rel="noopener noreferrer"
               >
                 <Twemoji
-                  text={t("Consultar Mapa Comarcal")}
+                  text={t("Mapa das Comarcas")}
                   options={{ className: "inline-block" }}
                 />
               </a>
@@ -257,15 +257,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 href="https://emovi.teuteuf.fr/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Twemoji
-                  text={
-                    dayString === "2022-07-17"
-                      ? "Let's celebrate #WorldEmojiDay! Play Emovi! 🎥"
-                      : "Difunde os nossos símbolos, visita estreleira.gal/loja"
-                  }
-                  options={{ className: "inline-block" }}
-                />
+              >                
               </a>
             </div>
           </>
