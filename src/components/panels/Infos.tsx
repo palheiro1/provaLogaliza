@@ -91,7 +91,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           Consulta o{" "}
           <a
             className="underline"
-            href="https://worldle.notion.site/Worldle-b84ab0f002e34866980a4d47cf9291b7"
+            href="https://estreleira.gal/faq"
             target="_blank"
             rel="noopener noreferrer"
           >
