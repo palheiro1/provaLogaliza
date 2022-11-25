@@ -6,7 +6,7 @@ export interface StatsData {
   maxStreak: number;
   played: number;
   winRatio: number;
-  guessDistribution: Record<1 | 2 | 3 | 4 | 5 | 6, number>;
+  guessDistribution: Record<1 | 2 | 3 | 4, number>;
   averageBestDistance: number;
 }
 
@@ -21,8 +21,6 @@ export function getStatsData(): StatsData {
     2: 0,
     3: 0,
     4: 0,
-    5: 0,
-    6: 0,
   };
 
   let currentStreak = 0;
@@ -35,7 +33,7 @@ export function getStatsData(): StatsData {
     const winIndex = guesses.findIndex((guess) => guess.distance === 0);
     const won = winIndex >= 0;
     if (won) {
-      const tryCount = (winIndex + 1) as 1 | 2 | 3 | 4 | 5 | 6;
+      const tryCount = (winIndex + 1) as 1 | 2 | 3 | 4;
       guessDistribution[tryCount]++;
 
       if (
