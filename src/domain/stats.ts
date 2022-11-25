@@ -21,8 +21,6 @@ export function getStatsData(): StatsData {
     2: 0,
     3: 0,
     4: 0,
-    5: 0,
-    6: 0,
   };
 
   let currentStreak = 0;
