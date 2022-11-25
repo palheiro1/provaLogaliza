@@ -49,7 +49,7 @@ export function Share({
     const bestPercent = `(${computeProximityPercent(
       bestDistance
     ).toString()}%)`;
-    const title = `#LoGaliza!, adivinha umha comarca cada dia #${dayCount} ${guessCount}/6 ${bestPercent}${difficultyModifierEmoji}`;
+    const title = `#LoGaliza!, adivinha umha comarca cada dia #${dayCount} ${guessCount}/4 ${bestPercent}${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {
