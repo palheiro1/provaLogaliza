@@ -1,7 +1,7 @@
 
 export const areasComarcas: Record<string, number> = {
   ANC: 193,
-  ARÇ: 652090,
+  ARC: 652090,
   ARN: 1246700,
   BAL: 96,
   BAM: 28748,
@@ -19,7 +19,7 @@ export const areasComarcas: Record<string, number> = {
   COR: 86600,
   COS: 27834,
   COU: 30518,
-  DEÇ: 112622,
+  DEC: 112622,
   EUM: 274000,
   LIM: 143998,
   LUG: 110994,

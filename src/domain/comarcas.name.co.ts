@@ -1,7 +1,7 @@
 // Source: https://co.wikipedia.org/wiki/ISO_3166-2
 export const galicianCountryNames: Record<string, string> = {
   ANC: "Ancares",
-  ARÇ: "Arçua",
+  ARC: "Arçua",
   ARN: "Arnoia",
   BAL: "Baixa Límia",
   BAM: "Baixo Minho",
@@ -19,7 +19,7 @@ export const galicianCountryNames: Record<string, string> = {
   COR: "Corunha",
   COS: "Costa da Morte",
   COU: "Courel",
-  DEÇ: "Deça",
+  DEC: "Deça",
   EUM: "Eume",
   LIM: "Límia",
   LUG: "Lugo",

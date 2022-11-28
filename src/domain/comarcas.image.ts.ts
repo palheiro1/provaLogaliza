@@ -1,6 +1,6 @@
 export const comarcasCodesWithImage = [
   "anc",
-  "arç",
+  "arc",
   "arn",
   "bal",
   "bam",
@@ -18,7 +18,7 @@ export const comarcasCodesWithImage = [
   "cor",
   "cos",
   "cou",
-  "deç",
+  "dec",
   "eum",
   "lim",
   "lug",

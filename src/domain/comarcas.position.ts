@@ -9,7 +9,7 @@ export const galicianComarcas: countriesI[] = [
   },
   {
     name: "Arçua",
-    code: "ARÇ",
+    code: "ARC",
     latitude: 42.930178183361576,
     longitude: -8.15968076796924
   },
@@ -117,7 +117,7 @@ export const galicianComarcas: countriesI[] = [
   },
   {
     name: "Deça",
-    code: "DEÇ",
+    code: "DEC",
     latitude: 42.66243343414549,
     longitude: -8.111002785175353
   },
