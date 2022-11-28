@@ -15,7 +15,7 @@ export const galicianCountryNames: Record<string, string> = {
   CEL: "Celanova",
   CHA: "Chantada",
   COM: "Compostela",
-  CON: "Condado",
+  CND: "Condado",
   COR: "Corunha",
   COS: "Costa da Morte",
   COU: "Courel",

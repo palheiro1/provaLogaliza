@@ -29,7 +29,7 @@ const forcedCountries: Record<string, CountryCode> = {
   "2022-12-12": "TME",
   "2022-12-13": "VIA",
   "2022-12-14": "TLE",
-  "2022-12-15": "CON",
+  "2022-12-15": "CND",
   "2022-12-16": "LUG",
   "2022-12-17": "SAL",
   "2022-12-18": "PAR",

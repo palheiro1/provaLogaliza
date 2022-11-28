@@ -14,7 +14,7 @@ export const comarcasCodesWithImage = [
   "cel",
   "cha",
   "com",
-  "con",
+  "cnd",
   "cor",
   "cos",
   "cou",

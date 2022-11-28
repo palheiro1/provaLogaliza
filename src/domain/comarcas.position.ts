@@ -93,7 +93,7 @@ export const galicianComarcas: countriesI[] = [
   },
   {
     name: "Condado",
-    code: "CON",
+    code: "CND",
     latitude: 42.17390370502511,
     longitude: -8.504569527409615
   },
